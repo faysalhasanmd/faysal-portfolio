@@ -1,0 +1,135 @@
+/* nav style */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+/* header style */
+.header {
+  background-image: url(./images/developer.png), url(./images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+/* shared work */
+.dark-2 {
+  color: #686767;
+}
+
+.section-title {
+  color: #181818;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: tomato;
+  padding: 17px 35px;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.secondary-background {
+  background-color: antiquewhite;
+}
+/* nav style */
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+span {
+  color: tomato;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 30px;
+}
+nav li a {
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+/* banner style */
+.banner-greetings {
+  font-size: 45px;
+  font-weight: bold;
+}
+.banner-head {
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner-para {
+  font-size: 18px;
+}
+.profile-pic {
+  max-width: 584px;
+  height: 670px;
+  padding-right: 37px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.Banner-container {
+  width: 585px;
+  padding-left: 383px;
+}
+/* about style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about {
+  margin-top: 30px;
+  padding: 130px 150px;
+  text-align: center;
+  border-radius: 0 0 50px 50px;
+}
+.about-items {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  font-weight: 600;
+}
+/* section desc */
+.section-desc {
+  text-align: center;
+}
+/* card style */
+.what-i-do {
+  text-align: center;
+}
+.card:hover {
+  background-color: rgb(250, 235, 215);
+}
+.card {
+  width: 247px;
+  height: 317px;
+  padding: 20px;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: -3px -3px 10px rgb(247, 246, 244);
+}
+.card-container {
+  display: flex;
+  gap: 10px;
+}
+.div-4 {
+  text-align: left;
+}
+.card-2 {
+  border-radius: 10px;
+}
+.who {
+  text-align: center;
+}
