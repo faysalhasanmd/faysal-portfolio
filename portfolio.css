@@ -133,3 +133,50 @@ main {
 .who {
   text-align: center;
 }
+
+/* experience st */
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+.section-title {
+  text-align: center;
+}
+.experience-sub-title {
+  font-size: 20px;
+  color: #4e4d4d;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.column-title {
+  font-size: 30px;
+}
+.experience-title {
+  font-size: 22px;
+}
+.btn-centre {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* footer style */
+.footer-container {
+  display: flex;
+  gap: 25px;
+  background-color: bisque;
+  padding: 120px 200px;
+  margin: 90px;
+  border-radius: 0 0 50px 50px;
+}
+
+.footer-title {
+  padding: 20px;
+}
+.form-style {
+  padding: 20px 65px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 25px;
+}
