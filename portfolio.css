@@ -20,8 +20,11 @@ nav {
   color: #181818;
   font-weight: bold;
 }
-
+.btn-primary:hover {
+  background-color: rgb(160, 59, 41);
+}
 .btn-primary {
+  cursor: pointer;
   background-color: tomato;
   padding: 17px 35px;
   color: white;
@@ -174,9 +177,8 @@ main {
   padding: 20px;
 }
 .form-style {
-  padding: 20px 65px;
-  font-size: 1rem;
+  padding: 20px 30px;
   border-radius: 10px;
-  border: none;
-  font-size: 25px;
+  border: 1px solid darkorange;
+  font-size: 17px;
 }
