@@ -177,7 +177,8 @@ main {
   padding: 20px;
 }
 .form-style {
-  padding: 20px 200px 20px 20px;
+  width: 100%;
+  padding: 20px;
   border-radius: 10px;
   border: none;
   font-size: 17px;
